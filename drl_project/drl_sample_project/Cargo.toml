@@ -1,0 +1,12 @@
+[package]
+name = "drl_sample_project"
+version = "0.1.0"
+authors = ["Nicolas Vidal <pro@nicolasvidal.fr>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+flatbuffers = "2.0.0"
+libloading = "0.7.0"
+drl_contracts = {path="../drl_contracts"}
